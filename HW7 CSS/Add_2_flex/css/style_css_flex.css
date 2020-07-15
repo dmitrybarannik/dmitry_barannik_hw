@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  background: gray;
+  flex-flow: row wrap;
+}
+.navigating {
+  flex-basis: 150px;
+  background-color: lightsalmon;
+  align-self: flex-start;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+.content div {
+  background-color: gold;
+  margin-bottom: 0.2em;
+}
+.footer {
+  background-color: lavender;
+  clear: both;
+  flex: auto;
+}

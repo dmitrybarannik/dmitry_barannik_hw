@@ -1,0 +1,17 @@
+.header {
+  width: 240px;
+  background-color: antiquewhite;
+  float: left;
+}
+.content {
+  background-color: darkkhaki;
+  margin-bottom: 3px;
+  overflow: hidden;
+}
+.footer {
+  background-color: powderblue;
+}
+.img {
+  width: 50px;
+  float: right;
+}
